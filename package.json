@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "build:pdf": "resume export resume.pdf --theme elegant",
+        "build:html": "resume export resume.html --theme elegant",
+        "serve": "resume serve --theme elegant"
+    },
+    "devDependencies": {
+        "resume-cli": "^3.0.5"
+    },
+    "dependencies": {
+        "jsonresume-theme-elegant": "^1.16.1"
+    }
+}
