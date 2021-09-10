@@ -8,7 +8,7 @@
         "image": "chris.jpg",
         "email": "chris@webcanvas.com.au",
         "phone": "+61 412 149 906",
-        "summary": "**Experienced leader coming from a background of Software Engineering, DevOps, SRE and Infrustructure**. Born and raised in Sydney. Full time Foster Carer.",
+        "summary": "Experienced leader coming from a background of Software Engineering, DevOps, SRE and Infrastructure. Born and raised in Sydney. Full time Foster Carer.",
         "location": {
             "city": "Sydney",
             "countryCode": "AU"
@@ -32,7 +32,7 @@
             "Developed multipled individuals into leadership roles",
             "Built the ITSM team to inhouse I.T. Support",
             "Introduced multiple vendors to solve problems with Monitoring and Security",
-            "Created the stratgy for the next version of the AWS Infrastructure"
+            "Created the strategy for the next version of the AWS Infrastructure"
         ]
     }, {
         "name": "Hyphen Group (Compare Asia Group)",
