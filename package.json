@@ -5,7 +5,7 @@
         "serve": "resume serve --theme short"
     },
     "devDependencies": {
-        "resume-cli": "^3.0.5"
+        "resume-cli": "^3.0.7"
     },
     "dependencies": {
         "jsonresume-theme-elegant": "^1.16.1",
