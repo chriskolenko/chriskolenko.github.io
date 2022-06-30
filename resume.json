@@ -65,6 +65,7 @@
             "Worked closely with Sales and Engagement Managers to deliver customer goals"
         ]
     }, {
+        "breakBefore": true,
         "company": "Hyphen Group (Compare Asia Group)",
         "location": "Remote",
         "position": "Head of Platform",
@@ -114,6 +115,7 @@
         "keywords": ["DevOps", "Consulting"],
         "highlights": ["Design and implement CI/CD processes for a large Government project"]
     }, {
+        "breakBefore": true,
         "company": "Commonwealth Bank of Australia",
         "location": "Sydney",
         "position": "Senior DevOps Engineer / Senior Platform Engineer",
@@ -150,6 +152,7 @@
         "keywords": ["Agile", "Full-stack", "CMS", "Umbraco", "WCF", "JQuery", "HTML", "CSS"],
         "highlights": ["Delivered websites that had over 1 million page views per month", "Provide operations support"]
     }, {
+        "breakBefore": true,
         "company": "Webcanvas Pty Ltd (Own business)",
         "location": "Sydney",
         "position": "Senior .NET Developer",
