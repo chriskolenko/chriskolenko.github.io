@@ -1,16 +1,42 @@
 {
+    "name": "resume",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
     "scripts": {
-        "build:pdf": "resume export resume.pdf --theme short",
-        "build:html": "resume export resume.html --theme short",
-        "serve": "resume serve --theme short"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "NODE_ENV=development webpack serve",
+        "build": "webpack"
     },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
     "devDependencies": {
-        "resume-cli": "^3.0.7"
+        "@babel/core": "^7.18.10",
+        "@babel/preset-env": "^7.18.10",
+        "address-format": "^0.0.3",
+        "autoprefixer": "^10.4.8",
+        "babel-loader": "^8.2.5",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.7.1",
+        "handlebars-loader": "^1.7.2",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.1",
+        "moment": "^2.29.4",
+        "node-sass": "^7.0.1",
+        "postcss": "^8.4.16",
+        "postcss-loader": "^7.0.1",
+        "postcss-preset-env": "^7.7.2",
+        "sass-loader": "^13.0.2",
+        "style-loader": "^3.3.1",
+        "swag": "^0.7.0",
+        "tailwindcss": "^3.1.8",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.10.0"
     },
     "dependencies": {
-        "jsonresume-theme-elegant": "^1.16.1",
-        "jsonresume-theme-flat": "^0.3.7",
-        "jsonresume-theme-kendall": "^0.2.0",
-        "jsonresume-theme-short": "^0.1.7"
+        "lodash": "^4.17.21"
     }
 }

@@ -1,11 +1,8 @@
 {
-    "meta": {
-        "theme": "elegant"
-    },
     "basics": {
         "name": "Chris J. Kolenko",
         "label": "Head of Engineering",
-        "image": "chris.jpg",
+        "image": "assets/headshot.jpg",
         "email": "chris@webcanvas.com.au",
         "phone": "+61 412 149 906",
         "summary": "Experienced leader coming from a background of Software Engineering, DevOps, SRE and Infrastructure. Born and raised in Sydney. Full time Foster Carer.",
@@ -20,36 +17,6 @@
         }]
     },
     "work": [{
-        "company": "Inflow Technology Services - (www.inflow.pro)",
-        "location": "Remote",
-        "position": "Founder",
-        "summary": "Used existing technology to solve problems for a niche market segment",
-        "startDate": "2021-09",
-        "keywords": ["GCP", "Golang", "React.js", "CQRS", "Event Sourcing", "Support", "Lean Startup"],
-        "highlights": [
-            "Built a 3-5 person company",
-            "Moved the core engine from ContextGG into a standalone product",
-            "Built and delivered customer portals",
-            "Semi SaaS product",
-            "Built the Know Your Customer processes",
-            "Created the business entity in America"
-        ]
-    }, {
-        "company": "ContextGG - (www.context.gg)",
-        "location": "Remote",
-        "position": "Founder",
-        "summary": "Built a product to automate the process of Esports tournament payouts and crowdfunding",
-        "startDate": "2019-06",
-        "keywords": ["GCP", "Golang", "React.js", "CQRS", "Event Sourcing", "Support", "Lean Startup"],
-        "highlights": [
-            "Built the product backlog",
-            "Hired multiple developers and designers to build the product",
-            "Worked closely with designers and developers to build the product",
-            "On-boarded multiple customers",
-            "Incharge of strategy and product development",
-            "Worked with advisers to build a V.C. pitch"
-        ]
-    }, {
         "company": "Rackspace",
         "location": "Sydney/Remote",
         "position": "Lead Cloud Architect Consultant",
@@ -119,7 +86,7 @@
         "company": "Commonwealth Bank of Australia",
         "location": "Sydney",
         "position": "Senior DevOps Engineer / Senior Platform Engineer",
-        "summary": "My DevOps journey started with implementing CI/CD practices for NetBank for Dev and Testing environments. I then transitioned into a new team who managed all CI/CD tooling and slowly enabled our deveopment teams to implement their own build pipelines with improved productivity and self service capabilities. I was then moved into the Staging and Production deployment team where I work closely with Ops teams and help deploy parts of NetBank into AWS. Once that pattern hit maturity I moved into a full DevOps team which was implementing their own PAAS on Physical Infrastructure using Mesos and Docker.",
+        "summary": "My DevOps journey started with implementing CI/CD practices for NetBank for Dev and Testing environments. I then transitioned into a new team who managed all CI/CD tooling and slowly enabled our development teams to implement their own build pipelines with improved productivity and self service capabilities. I was then moved into the Staging and Production deployment team where I work closely with Ops teams and help deploy parts of NetBank into AWS. Once that pattern hit maturity I moved into a full DevOps team which was implementing their own PAAS on Physical Infrastructure using Mesos and Docker.",
         "startDate": "2015-09",
         "endDate": "2018-04",
         "keywords": ["Docker", "Puppet", "Ansible", "Vault", "Packer", "CI/CD", "Automation", "AWS", "Azure", "Bare metal", "PAAS"],
@@ -179,6 +146,37 @@
         "summary": "Created digital media websites for multiple companies include Real Insurance.",
         "keywords": ["Agile", "Full-stack", "SQL", "C#", "ASP.NET", "MVC", "Kentico", "CMS", "WCF", "REST", "JQuery", "HTML", "CSS"],
         "highlights": ["Delivered over 8 fully customised CMS based web applications", "Performed mission-critical production support", "Full stack development"]
+    }],
+    "projects": [{
+        "company": "Inflow Technology Services - (www.inflow.pro)",
+        "location": "Remote",
+        "position": "Founder",
+        "summary": "Used existing technology to solve problems for a niche market segment",
+        "startDate": "2021-09",
+        "keywords": ["GCP", "Golang", "React.js", "CQRS", "Event Sourcing", "Support", "Lean Startup"],
+        "highlights": [
+            "Built a 3-5 person company",
+            "Moved the core engine from ContextGG into a standalone product",
+            "Built and delivered customer portals",
+            "Semi SaaS product",
+            "Built the Know Your Customer processes",
+            "Created the business entity in America"
+        ]
+    }, {
+        "company": "ContextGG - (www.context.gg)",
+        "location": "Remote",
+        "position": "Founder",
+        "summary": "Built a product to automate the process of Esports tournament payouts and crowdfunding",
+        "startDate": "2019-06",
+        "keywords": ["GCP", "Golang", "React.js", "CQRS", "Event Sourcing", "Support", "Lean Startup"],
+        "highlights": [
+            "Built the product backlog",
+            "Hired multiple developers and designers to build the product",
+            "Worked closely with designers and developers to build the product",
+            "On-boarded multiple customers",
+            "Incharge of strategy and product development",
+            "Worked with advisers to build a V.C. pitch"
+        ]
     }],
     "volunteer": [{
         "organization": "Key Assets",
@@ -250,20 +248,5 @@
         "name": "Chess"
     }, {
         "name": "Payment industry"
-    }],
-    "projects": [{
-        "name": "Context.gg",
-        "description": "An Esport tournament payout system",
-        "highlights": [
-            "Integrates with the major tournament systems",
-            "Supports PayPal and ACH bulk payouts",
-            "Runs on a GCP Kubernetes cluster with CQRS / Eventsourcing"
-        ],
-        "startDate": "2018-08-01",
-        "roles": [
-            "Founder"
-        ],
-        "entity": "Contextgg",
-        "type": "application"
     }]
 }
