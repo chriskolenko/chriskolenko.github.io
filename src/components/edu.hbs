@@ -1,0 +1,22 @@
+{{#if resume.education.length}}
+<div class="container education-container">
+  {{> title-light value="Education"}}
+
+  <div class="px-1 sm:px-4 ">
+    {{#each resume.education}}
+      <section class="item">
+        {{#if endDate}}
+          <h6>{{formatDateFull endDate}}</h6>
+        {{/if}}
+        {{#if area}}
+          <h6>{{area}}</h6>
+        {{/if}}
+        {{#if institution}}
+          <h6>{{institution}}</h6>
+        {{/if}}
+        
+      </section>
+    {{/each}}
+  </div>
+</div>
+{{/if}}

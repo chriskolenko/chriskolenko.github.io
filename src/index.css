@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;    
+
+@media print {
+    .break-before {
+        page-break-before: always;
+        margin-top: 15px;
+    }
+}

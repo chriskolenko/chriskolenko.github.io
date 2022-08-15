@@ -4,24 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 </head>
-<body>
-  <main>
-    {{> components/resume-header }}
-    <div class="flex">
-      <aside class="flex-initial">
-        {{> components/about }}
-        {{> components/skills }}
-        {{> components/languages }}
-        {{> components/interests }}
+<body class="bg-purple-100">
+  <main class="container max-w-7xl mx-auto bg-white md:shadow-md">
+    <div class="grid grid-cols-7">
+      <aside class="col-span-2 bg-zinc-800 text-zinc-300">
+        {{> components/left-header}}
+        <div class="mx-2 md:mx-12">
+          {{> components/about }}
+          {{> components/skills }}
+          {{> components/languages }}
+          {{> components/edu }}
+          {{> components/interests }}
+        <div>
       </aside>
-      <div class="flex-1">
-        {{> components/summary}}
-        {{> components/work }}
-        {{> components/volunteer }}
-        {{> components/education }}
-        {{> components/awards }}
-        {{> components/publications }}
-        {{> components/references }}
+      <div class="col-span-5 text-center">
+          {{> components/right-header}}
+        <div class="mx-2 md:mx-12 space-y-4 mb-4">
+          {{> components/summary}}
+          {{> components/work }}
+          {{> components/projects }}
+        </div>
       </div>
     </div>
   </main>
