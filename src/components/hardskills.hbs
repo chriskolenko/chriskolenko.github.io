@@ -1,0 +1,14 @@
+{{#if resume.hardskills.length}}
+  <div class="skills-container space-y-0 md:space-y-1">
+  {{> title-light value="Hard Skills"}}
+
+    {{#each resume.hardskills}}
+      <div class="skill-item text-left px-1 sm:px-4 ">
+        <h2>{{name}}</h2>
+        <div class="grid grid-cols-5 py-0.5 md:py-1">
+            {{{renderSkill level}}}
+        </div>
+      </div>
+    {{/each}}
+  </div>
+{{/if}}

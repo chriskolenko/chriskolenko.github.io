@@ -3,8 +3,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin"); // extract css to files
-
-const data = require("./resume.json");
+const webpack = require('webpack');
 
 module.exports = {
   mode: "development",
@@ -14,16 +13,18 @@ module.exports = {
     clean: true,
   },
   devServer: {
-    watchFiles: ["./src/**/*.hbs", "resume.json"],
+    watchFiles: ["./src/**/*.hbs", "./resume.json"],
     static: './dist',
-    port: 3000,
     open: true,
     hot: true,
-    compress: true,
-    historyApiFallback: true,
   },
   module: {
     rules: [
+      {
+        test: /\.json$/,
+        type: 'json',
+      },
+
       {
         test: /\.hbs$/,
         use: [{
@@ -48,7 +49,8 @@ module.exports = {
     ],
   },
   plugins: [
-    
+    new webpack.HotModuleReplacementPlugin(),
+
     // Removes/cleans build folders and unused assets when rebuilding
     new CleanWebpackPlugin(),
 
@@ -71,11 +73,8 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: "src/index.hbs",
+      template: "src/template.js",
       filename: "index.html",
-      templateParameters: {
-        resume: data,
-      },
     }),
   ],
 };
