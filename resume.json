@@ -10,21 +10,34 @@
             "city": "Sydney",
             "countryCode": "AU"
         },
-        "profiles": [{
-            "network": "GitHub",
-            "username": "chriskolenko",
-            "url": "https://github.com/chriskolenko"
-        }]
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "chriskolenko",
+                "url": "https://github.com/chriskolenko"
+            }
+        ]
     },
-    "work": [{
+    "work": [
+        {
             "company": "Rackspace",
             "location": "Sydney/Remote",
             "position": "Lead Cloud Architect Consultant",
             "summary": "Joined the Elastic Engineering APJ department to run a team of highly skilled DevOps, Cloud and Platform engineers",
             "startDate": "2021-07",
-            "keywords": ["AWS", "GCP", "Agile", "DevOps", "Terraform", "Kubernetes", "Observability", "Packer"],
+            "keywords": [
+                "AWS",
+                "GCP",
+                "Agile",
+                "DevOps",
+                "Terraform",
+                "Kubernetes",
+                "Observability",
+                "Packer"
+            ],
             "highlights": [
-                "Hired 10+ DevOps, Cloud and Platform Engineers into the Organisation in 2022",
+                "Built multiple DevOps teams up to 10 engineers during volatile and competitive market conditions",
+                "Managed 12+ businesses of varying sizes across multiple industries",
                 "Created skills matrix, development plans, modernized the interview process",
                 "Worked with 12+ Companies from Startup to Large Enterprise",
                 "Established short term roadmaps",
@@ -113,7 +126,11 @@
             "summary": "Driving adoption of CI/CD for providing business value. Nurturing organisational transformation by leveraging proven processes and technologies",
             "startDate": "2018-04",
             "endDate": "2018-07",
-            "keywords": ["AWS", "DevOps", "Consulting"],
+            "keywords": [
+                "AWS",
+                "DevOps",
+                "Consulting"
+            ],
             "highlights": [
                 "Design and implement CI/CD processes for a large Government project"
             ]
@@ -155,7 +172,12 @@
             "summary": "Developed .NET Rest APIs to be consumed by CommBanks iOS and Android applications",
             "startDate": "2014-04",
             "endDate": "2015-09",
-            "keywords": ["Agile", "C#", "WebAPI", "REST"],
+            "keywords": [
+                "Agile",
+                "C#",
+                "WebAPI",
+                "REST"
+            ],
             "highlights": [
                 "Delivered scheduled payments functionality for the CommBank iOS and Android applications"
             ]
@@ -244,7 +266,14 @@
             "startDate": "2010-03",
             "endDate": "2010-07",
             "summary": "Apart of a large development team (~30 people) building an internal tool named Quatro.",
-            "keywords": ["Agile", "Silverlight", "RIA", "C#", "SQL", "MicroService"],
+            "keywords": [
+                "Agile",
+                "Silverlight",
+                "RIA",
+                "C#",
+                "SQL",
+                "MicroService"
+            ],
             "highlights": [
                 "Successfully delivering 3 core features",
                 "Assisting Business Analysts (BA) with design decisions"
@@ -280,7 +309,8 @@
             ]
         }
     ],
-    "projects": [{
+    "projects": [
+        {
             "company": "Inflow Technology Services - (www.inflow.pro)",
             "location": "Remote",
             "position": "Founder",
@@ -329,34 +359,44 @@
             ]
         }
     ],
-    "volunteer": [{
-        "organization": "Key Assets",
-        "position": "Foster carer",
-        "startDate": "2015-09-01",
-        "summary": "Full time foster parent"
-    }],
-    "education": [{
-        "institution": "Western Sydney University",
-        "url": "https://www.westernsydney.edu.au/",
-        "area": "Bachelor of Computer Science",
-        "studyType": "Bachelor Degree",
-        "startDate": "2003-01-01",
-        "endDate": "2007-01-01"
-    }],
-    "softskills": [{
-        "name": "Leadership",
-        "level": 4
-    }, {
-        "name": "Communication",
-        "level": 4
-    }, {
-        "name": "Teamwork",
-        "level": 4
-    }, {
-        "name": "Hiring",
-        "level": 5
-    }],
-    "hardskills": [{
+    "volunteer": [
+        {
+            "organization": "Key Assets",
+            "position": "Foster carer",
+            "startDate": "2015-09-01",
+            "summary": "Full time foster parent"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Western Sydney University",
+            "url": "https://www.westernsydney.edu.au/",
+            "area": "Bachelor of Computer Science",
+            "studyType": "Bachelor Degree",
+            "startDate": "2003-01-01",
+            "endDate": "2007-01-01"
+        }
+    ],
+    "softskills": [
+        {
+            "name": "Leadership",
+            "level": 4
+        },
+        {
+            "name": "Communication",
+            "level": 4
+        },
+        {
+            "name": "Teamwork",
+            "level": 4
+        },
+        {
+            "name": "Hiring",
+            "level": 5
+        }
+    ],
+    "hardskills": [
+        {
             "name": "Cloud AWS/GCP",
             "level": 5
         },
@@ -373,7 +413,8 @@
             "level": 5
         }
     ],
-    "interests": [{
+    "interests": [
+        {
             "name": "Web3.0"
         },
         {
