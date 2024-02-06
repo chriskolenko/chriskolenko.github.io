@@ -5,7 +5,7 @@
         "image": "assets/headshot.jpg",
         "email": "chris@webcanvas.com.au",
         "phone": "+61 412 149 906",
-        "summary": "An accomplished technology leader and engineer with over 15 years experience. Proven ability to successfully deliver world class products working closely with business, customers and engineers. Transformed multiple companies bringing them to the forefront of technology. Passionate technologist creating open source solutions from containerizing software to event sourcing frameworks and services.",
+        "summary": "I have a proven track record of delivering complex projects and leading teams to success. I have a strong background in DevOps, Cloud, Platform Engineering and Software Development. I have a passion for building high performing teams and delivering business value through technology.",
         "location": {
             "city": "Sydney",
             "countryCode": "AU"
@@ -20,11 +20,32 @@
     },
     "work": [
         {
+            "company": "WooliesX",
+            "location": "Sydney/Remote",
+            "position": "Lead Cloud Platform Engineer",
+            "summary": "Specialising in GCP and Platform Engineering",
+            "startDate": "2022-12",
+            "keywords": [
+                "GCP",
+                "Agile",
+                "DevOps",
+                "Terraform"
+            ],
+            "highlights": [
+                "Worked with Woolworths Group to create complex IHLDs (Infrastructure High Level Designs) for cross cloud connectivity",
+                "Design patterns for GCP consumption as a service",
+                "Support delivery teams with best practices",
+                "Support delivery teams with production deployments and incident triage",
+                "Reduce risk in I.T. systems across various domains"
+            ]
+        },
+        {
             "company": "Rackspace",
             "location": "Sydney/Remote",
             "position": "Lead Cloud Architect Consultant",
             "summary": "Joined the Elastic Engineering APJ department to run a team of highly skilled DevOps, Cloud and Platform engineers",
             "startDate": "2021-07",
+            "endDate": "2022-12",
             "keywords": [
                 "AWS",
                 "GCP",
@@ -40,14 +61,13 @@
                 "Managed 12+ businesses of varying sizes across multiple industries",
                 "Created skills matrix, development plans, modernized the interview process",
                 "Worked with 12+ Companies from Startup to Large Enterprise",
-                "Established short term roadmaps",
-                "Managed execution for roadmaps using Agile framework",
                 "Built strategies for standardising and modularising I.T. infrastructure",
-                "Worked closely with Sales and Engagement Managers across the organisation",
-                "Ensured our deliverables met strong industry standards; Security, Cost, Performance, Reliability and Scalability"
+                "Ensured our deliverables met strong industry standards; Security, Cost, Performance, Reliability and Scalability",
+                "In charge of overall Architecture of all projects my team was involved in"
             ]
         },
         {
+            "breakBefore": true,
             "company": "Hyphen Group (Compare Asia Group)",
             "location": "Remote",
             "position": "Head of Platform",
@@ -71,7 +91,6 @@
             ]
         },
         {
-            "breakBefore": true,
             "company": "Hyphen Group (Compare Asia Group)",
             "location": "Remote",
             "position": "Head of DevOps",
@@ -88,6 +107,8 @@
                 "Golang"
             ],
             "highlights": [
+                "Architected and designed the AWS infrastructure",
+                "Architected and designed how applications communicated with each other",
                 "Transformed multiple AWS environments using Kubernetes, GitOps and Agile",
                 "Scaled up to 10 production Kubernetes clusters",
                 "Built and hired the DevOps/System Engineers",
@@ -136,6 +157,7 @@
             ]
         },
         {
+            "breakBefore": true,
             "company": "Commonwealth Bank of Australia",
             "location": "Sydney",
             "position": "Senior DevOps Engineer / Senior Platform Engineer",
@@ -164,7 +186,6 @@
             ]
         },
         {
-            "breakBefore": true,
             "compact": true,
             "company": "Commonwealth Bank of Australia",
             "location": "Sydney",
@@ -311,6 +332,28 @@
     ],
     "projects": [
         {
+            "company": "Get No_Ops - (www.getnoops.com)",
+            "location": "Remote",
+            "position": "Co-Founder",
+            "summary": "Dev Ops as a Service Platform",
+            "startDate": "2021-09",
+            "keywords": [
+                "AWS",
+                "Golang",
+                "React.js",
+                "CQRS",
+                "Event Sourcing",
+                "Support",
+                "Lean Startup"
+            ],
+            "highlights": [
+                "Built a 10 person company",
+                "Created a blueprint pattern for AWS",
+                "First class portal to view configuration and operations",
+                "World class AWS architecture"
+            ]
+        },
+        {
             "company": "Inflow Technology Services - (www.inflow.pro)",
             "location": "Remote",
             "position": "Founder",
@@ -329,7 +372,6 @@
                 "Built a 3-5 person company",
                 "Moved the core engine from ContextGG into a standalone product",
                 "Built and delivered customer portals",
-                "Semi SaaS product",
                 "Built the Know Your Customer processes",
                 "Created the business entity in America"
             ]
@@ -353,8 +395,7 @@
                 "Built the product backlog",
                 "Hired multiple developers and designers to build the product",
                 "Worked closely with designers and developers to build the product",
-                "On-boarded multiple customers",
-                "Incharge of strategy and product development",
+                "In charge of strategy and product development",
                 "Worked with advisers to build a V.C. pitch"
             ]
         }
@@ -364,7 +405,7 @@
             "organization": "Key Assets",
             "position": "Foster carer",
             "startDate": "2015-09-01",
-            "summary": "Full time foster parent"
+            "summary": "Full time foster parent of two beautiful children"
         }
     ],
     "education": [
@@ -380,15 +421,15 @@
     "softskills": [
         {
             "name": "Leadership",
-            "level": 4
+            "level": 5
         },
         {
             "name": "Communication",
-            "level": 4
+            "level": 5
         },
         {
             "name": "Teamwork",
-            "level": 4
+            "level": 5
         },
         {
             "name": "Hiring",
@@ -398,6 +439,10 @@
     "hardskills": [
         {
             "name": "Cloud AWS/GCP",
+            "level": 5
+        },
+        {
+            "name": "Architecture",
             "level": 5
         },
         {
@@ -415,19 +460,13 @@
     ],
     "interests": [
         {
-            "name": "Web3.0"
+            "name": "No Ops"
         },
         {
-            "name": "Blockchain"
+            "name": "A.I. and Machine Learning"
         },
         {
-            "name": "Decentralized internet"
-        },
-        {
-            "name": "Neobank technology"
-        },
-        {
-            "name": "Esports"
+            "name": "Compilers"
         }
     ]
 }
