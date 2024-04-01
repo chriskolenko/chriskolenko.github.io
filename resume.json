@@ -1,11 +1,11 @@
 {
     "basics": {
         "name": "Chris J. Kolenko",
-        "label": "Head Of Platform",
+        "label": "Leadership and/or Architect",
         "image": "assets/headshot.jpg",
         "email": "chris@webcanvas.com.au",
         "phone": "+61 412 149 906",
-        "summary": "I have a proven track record of delivering complex projects and leading teams to success. I have a strong background in DevOps, Cloud, Platform Engineering and Software Development. I have a passion for building high performing teams and delivering business value through technology.",
+        "summary": "I have a proven track record of delivering complex projects and leading teams to success. I have a strong background in DevSecOps, Cloud, Platform Engineering, Cyber Security and Software Development (C#, Go, Node.js and React).",
         "location": {
             "city": "Sydney",
             "countryCode": "AU"
@@ -23,18 +23,20 @@
             "company": "WooliesX",
             "location": "Sydney/Remote",
             "position": "Lead Cloud Platform Engineer",
-            "summary": "Specialising in GCP and Platform Engineering",
+            "summary": "Specialising in GCP, DevSecOps and Platform Engineering",
             "startDate": "2022-12",
             "keywords": [
                 "GCP",
-                "Agile",
-                "DevOps",
-                "Terraform"
+                "DevSecOps",
+                "Platform Engineering",
+                ".Net",
+                "Go",
+                "Node.js"
             ],
             "highlights": [
-                "Worked with Woolworths Group to create complex IHLDs (Infrastructure High Level Designs) for cross cloud connectivity",
                 "Design patterns for GCP consumption as a service",
-                "Support delivery teams with best practices",
+                "Rolled out Orca, Crowdstrike and Snyk to improve security posture",
+                "Support .Net, Node.js delivery teams with best practices",
                 "Support delivery teams with production deployments and incident triage",
                 "Reduce risk in I.T. systems across various domains"
             ]
@@ -42,28 +44,26 @@
         {
             "company": "Rackspace",
             "location": "Sydney/Remote",
-            "position": "Lead Cloud Architect Consultant",
-            "summary": "Joined the Elastic Engineering APJ department to run a team of highly skilled DevOps, Cloud and Platform engineers",
+            "position": "Lead Cloud/Cyber Architect",
+            "summary": "Joined the Elastic Engineering APJ department to run a team of highly skilled DevSecOps, Cloud and Platform engineers",
             "startDate": "2021-07",
             "endDate": "2022-12",
             "keywords": [
                 "AWS",
                 "GCP",
-                "Agile",
-                "DevOps",
+                "DevSecOps",
                 "Terraform",
                 "Kubernetes",
-                "Observability",
-                "Packer"
+                "Observability"
             ],
             "highlights": [
-                "Built multiple DevOps teams up to 10 engineers during volatile and competitive market conditions",
-                "Managed 12+ businesses of varying sizes across multiple industries",
+                "Built multiple DevSecOps teams up to 10 engineers during volatile and competitive market conditions",
+                "Managed 12+ projects of varying sizes across multiple industries",
                 "Created skills matrix, development plans, modernized the interview process",
                 "Worked with 12+ Companies from Startup to Large Enterprise",
                 "Built strategies for standardising and modularising I.T. infrastructure",
                 "Ensured our deliverables met strong industry standards; Security, Cost, Performance, Reliability and Scalability",
-                "In charge of overall Architecture of all projects my team was involved in"
+                "In charge of overall Cyber and Architecture of all projects my team was involved in"
             ]
         },
         {
@@ -71,7 +71,7 @@
             "company": "Hyphen Group (Compare Asia Group)",
             "location": "Remote",
             "position": "Head of Platform",
-            "summary": "Built multiple teams responsible for Cyber Security, ITSM, Test Automation and DevOps",
+            "summary": "Built multiple teams responsible for Cyber Security, ITSM, Test Automation and DevSecOps",
             "startDate": "2021-02",
             "endDate": "2021-07",
             "keywords": [
@@ -80,7 +80,7 @@
                 "ITSM",
                 "Vendor Management",
                 "Testing",
-                "DevOps",
+                "DevSecOps",
                 "Platform"
             ],
             "highlights": [
@@ -93,8 +93,8 @@
         {
             "company": "Hyphen Group (Compare Asia Group)",
             "location": "Remote",
-            "position": "Head of DevOps",
-            "summary": "Built multiple teams responsible for DevOps, AWS infrastructure and SRE",
+            "position": "Head of DevSecOps",
+            "summary": "Built multiple teams responsible for DevSecOps, AWS infrastructure and SRE",
             "startDate": "2019-02",
             "endDate": "2021-02",
             "keywords": [
@@ -111,7 +111,7 @@
                 "Architected and designed how applications communicated with each other",
                 "Transformed multiple AWS environments using Kubernetes, GitOps and Agile",
                 "Scaled up to 10 production Kubernetes clusters",
-                "Built and hired the DevOps/System Engineers",
+                "Built and hired the DevSecOps/System Engineers",
                 "Built and hired the SRE team",
                 "Responsible for short, mid and long term strategy",
                 "Introduced DataDog for monitoring and logging",
@@ -121,14 +121,14 @@
         {
             "company": "Industrie and Co",
             "location": "Sydney",
-            "position": "DevOps Practice Lead",
-            "summary": "Lead a team of 6 DevOps engineers and engaged with clients to deliver projects through to production",
+            "position": "DevSecOps Practice Lead",
+            "summary": "Lead a team of 6 DevSecOps engineers and engaged with clients to deliver projects through to production",
             "startDate": "2018-07",
             "endDate": "2019-02",
             "keywords": [
                 "AWS",
                 "Terraform",
-                "DevOps",
+                "DevSecOps",
                 "Kubernetes",
                 "AWS"
             ],
@@ -143,14 +143,15 @@
         {
             "company": "Contino",
             "location": "Sydney",
-            "position": "Senior DevOps Engineer / Senior Platform Engineer",
+            "position": "Senior DevSecOps Engineer / Senior Platform Engineer",
             "summary": "Driving adoption of CI/CD for providing business value. Nurturing organisational transformation by leveraging proven processes and technologies",
             "startDate": "2018-04",
             "endDate": "2018-07",
             "keywords": [
                 "AWS",
-                "DevOps",
-                "Consulting"
+                "DevSecOps",
+                "Consulting",
+                "Node.js"
             ],
             "highlights": [
                 "Design and implement CI/CD processes for a large Government project"
@@ -160,7 +161,7 @@
             "breakBefore": true,
             "company": "Commonwealth Bank of Australia",
             "location": "Sydney",
-            "position": "Senior DevOps Engineer / Senior Platform Engineer",
+            "position": "Senior DevSecOps Engineer / Senior Platform Engineer",
             "summary": "Worked with multiple areas of the business, including Netbank, Netbank Mobile, Shared Services, Data Engineering",
             "startDate": "2015-09",
             "endDate": "2018-04",
@@ -446,7 +447,7 @@
             "level": 5
         },
         {
-            "name": "DevOps",
+            "name": "DevSecOps",
             "level": 5
         },
         {
