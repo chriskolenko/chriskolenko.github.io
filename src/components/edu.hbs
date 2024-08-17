@@ -1,22 +1,29 @@
 {{#if resume.education.length}}
-<div class="container education-container">
+<div class="container">
   {{> title-light value="Education"}}
 
-  <div class="px-1 sm:px-4 ">
-    {{#each resume.education}}
-      <section class="item">
-        {{#if endDate}}
-          <h6>{{formatDateFull endDate}}</h6>
-        {{/if}}
-        {{#if area}}
-          <h6>{{area}}</h6>
-        {{/if}}
-        {{#if institution}}
-          <h6>{{institution}}</h6>
-        {{/if}}
-        
-      </section>
-    {{/each}}
-  </div>
+  {{#each resume.education}}
+  <section class="px-4 mt-4 space-y-2">
+    <div class="flex border-b border-zinc-800">
+      <h5 class="flex-auto py-1">
+        <span class="font-medium">{{ area }}</span> | {{ institution }}
+      </h5>
+      <div class="flex-none text-right">
+        <h5>
+          {{#if startDate}}
+          <span class="startDate">{{formatDateYear startDate}}</span>
+          {{#if endDate}}
+          <span class="endDate"> - {{formatDateYear endDate}}</span>
+          {{else}}
+          <span class="endDate"> - Present</span>
+          {{/if}}
+          {{else if releaseDate}}
+          {{formatDate releaseDate}}
+          {{/if}}
+        </h5>
+      </div>
+    </div>
+  </section>
+  {{/each}}
 </div>
 {{/if}}

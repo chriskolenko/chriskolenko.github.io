@@ -2,9 +2,7 @@ name: React app deployment
 
 on:
   push:
-    branches: [ resume ]
-  pull_request:
-    branches: [ resume ]
+    branches: [resume, leadership]
 
 jobs:
   build:

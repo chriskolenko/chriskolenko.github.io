@@ -1,34 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-</head>
-<body class="bg-purple-100">
-  <main class="container max-w-7xl mx-auto bg-white md:shadow-md">
-    <div class="grid grid-cols-7">
-      <aside class="col-span-2 bg-zinc-800 text-zinc-300">
-        {{> components/left-header}}
-        <div class="mx-2 md:mx-4 lg:mx-8 xl:mx-12 break-words md:break-normal">
-          {{> components/about }}
-          {{> components/softskills }}
-          {{> components/hardskills }}
-          {{> components/languages }}
-          {{> components/edu }}
-          {{> components/interests }}
-        <div>
-      </aside>
-      <div class="col-span-5 text-center">
-          {{> components/right-header}}
-        <div class="mx-2 md:mx-12 space-y-4 mb-4">
-          {{> components/summary}}
-          {{> components/work }}
-          {{> components/volunteer }}
-          {{> components/projects }}
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui" />
+  </head>
+  <body class="bg-purple-100">
+    <main class="container max-w-7xl mx-auto bg-white md:shadow-md">
+      <div class="grid grid-cols-7">
+        <div class="col-span-7">
+          <div class="mx-2 md:mx-12 space-y-4 mb-4">
+            {{> components/header}}
+            {{> components/about }}
+            {{> components/softskills }}
+            {{> components/work }}
+            {{> components/projects }}
+            {{> components/edu }}
+            {{> components/volunteer }}
+          </div>
+          <div style="page-break-before: always"></div>
         </div>
-        <div style='page-break-before:always'></div>
       </div>
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
 </html>

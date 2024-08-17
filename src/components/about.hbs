@@ -1,33 +1,43 @@
 {{#resume.basics}}
-<div class="container about-container space-y-4">
-  <div class="">
-    {{> title-light value="Contact"}}
+<div class="container">
+  <div class="flex space-x-4 pb-1 justify-center border-b-4 border-zinc-800">
+    {{#if email}}
+    {{> info-tag text=this.email icon="fa-solid fa-envelope"}}
+    {{/if}}
 
-    <div class="px-1 sm:px-4 space-y-1">
-      {{#if location}}
-        {{#location}}
-        {{> info-tag text=(formatAddress address city region postalCode countryCode) icon="fa-solid fa-map-marker"}}
-        {{/location}}
-      {{/if}}
+    {{#if phone}}
+    {{> info-tag text=this.phone icon="fa-solid fa-mobile"}}
+    {{/if}}
 
-      {{#if email}}
-        {{> info-tag text=this.email icon="fa-solid fa-envelope"}}
-      {{/if}}
+    {{#if website}}
+    {{> info-tag text=this.website icon="fa-solid fa-earth-oceania" url=this.website}}
+    {{/if}}
 
-      {{#if phone}}
-        {{> info-tag text=this.phone icon="fa-solid fa-mobile"}}
-      {{/if}}
-
-      {{#if website}}
-        {{> info-tag text=this.website icon="fa-solid fa-earth-oceania" url=this.website}}
-      {{/if}}
-
-      {{#if profiles}}
-        {{#each profiles}}
-            {{> social}}
-        {{/each}}
-      {{/if}}
-    </div>
+    {{#if profiles}}
+    {{#each profiles}}
+    {{> social}}
+    {{/each}}
+    {{/if}}
   </div>
-</section>
+  <section class="mt-4 space-y-2">
+    {{#if summary}}
+    <div class="container">
+      <p class="px-4">{{{newLineToBr summary}}}</p>
+    </div>
+    {{/if}}
+  </section>
+</div>
+
+{{#if points.length}}
+<div class="container">
+  {{> title-light value="Profile Summary"}}
+  <section class="px-4 mt-4">
+    <ul class="list-outside ml-6 font-light">
+      {{#each points}}
+      <li class="list-disc">{{.}}</li>
+      {{/each}}
+    </ul>
+  </section>
+</div>
+{{/if}}
 {{/resume.basics}}

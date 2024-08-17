@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Chris J. Kolenko",
-        "label": "Leadership and/or Architect",
+        "label": "Chief Technology Officer",
         "image": "assets/headshot.jpg",
         "email": "chris@webcanvas.com.au",
         "phone": "+61 412 149 906",
@@ -15,30 +15,44 @@
                 "network": "GitHub",
                 "username": "chriskolenko",
                 "url": "https://github.com/chriskolenko"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "kolenko",
+                "url": "https://www.linkedin.com/in/kolenko/"
             }
+        ],
+        "points": [
+            "Managed a team of 15-20, with multiple line managers and individual contributors across multiple areas of technology",
+            "Strong experience in building and leading teams in DevSecOps, Cloud, Platform Engineering, Cyber Security and Software Development",
+            "Adept at creating strategic plans and set timelines for evaluation, development, and deployment of all technical solutions",
+            "Highly skilled in developing and implementing of disaster recovery and business continuity plans",
+            "Implemented Cyber Security strategies and policies to protect the company's data and information systems",
+            "Improved systems to comply with industry standards and regulations"
         ]
     },
     "work": [
         {
-            "company": "WooliesX",
-            "location": "Sydney/Remote",
-            "position": "Lead Cloud Platform Engineer",
-            "summary": "Specialising in GCP, DevSecOps and Platform Engineering",
+            "company": "Get No_Ops - (www.getnoops.com)",
+            "location": "Remote",
+            "position": "Chief Technology Officer",
+            "summary": "Built a Dev Ops/Platform as a Service Platform as a SAAS product",
             "startDate": "2022-12",
             "keywords": [
-                "GCP",
-                "DevSecOps",
-                "Platform Engineering",
-                ".Net",
-                "Go",
-                "Node.js"
+                "AWS",
+                "Golang",
+                "React.js",
+                "CQRS",
+                "Event Sourcing",
+                "Support",
+                "Lean Startup"
             ],
             "highlights": [
-                "Design patterns for GCP consumption as a service",
-                "Rolled out Orca, Crowdstrike and Snyk to improve security posture",
-                "Support .Net, Node.js delivery teams with best practices",
-                "Support delivery teams with production deployments and incident triage",
-                "Reduce risk in I.T. systems across various domains"
+                "",
+                "Built a 10 person company",
+                "Created a blueprint pattern for AWS",
+                "First class portal to view configuration and operations",
+                "World class AWS architecture"
             ]
         },
         {
@@ -68,7 +82,7 @@
         },
         {
             "breakBefore": true,
-            "company": "Hyphen Group (Compare Asia Group)",
+            "company": "MoneyHero Group",
             "location": "Remote",
             "position": "Head of Platform",
             "summary": "Built multiple teams responsible for Cyber Security, ITSM, Test Automation and DevSecOps",
@@ -91,7 +105,7 @@
             ]
         },
         {
-            "company": "Hyphen Group (Compare Asia Group)",
+            "company": "MoneyHero Group",
             "location": "Remote",
             "position": "Head of DevSecOps",
             "summary": "Built multiple teams responsible for DevSecOps, AWS infrastructure and SRE",
@@ -141,6 +155,7 @@
             ]
         },
         {
+            "compact": true,
             "company": "Contino",
             "location": "Sydney",
             "position": "Senior DevSecOps Engineer / Senior Platform Engineer",
@@ -158,6 +173,7 @@
             ]
         },
         {
+            "compact": true,
             "breakBefore": true,
             "company": "Commonwealth Bank of Australia",
             "location": "Sydney",
@@ -333,33 +349,11 @@
     ],
     "projects": [
         {
-            "company": "Get No_Ops - (www.getnoops.com)",
-            "location": "Remote",
-            "position": "Co-Founder",
-            "summary": "Dev Ops as a Service Platform",
-            "startDate": "2021-09",
-            "keywords": [
-                "AWS",
-                "Golang",
-                "React.js",
-                "CQRS",
-                "Event Sourcing",
-                "Support",
-                "Lean Startup"
-            ],
-            "highlights": [
-                "Built a 10 person company",
-                "Created a blueprint pattern for AWS",
-                "First class portal to view configuration and operations",
-                "World class AWS architecture"
-            ]
-        },
-        {
             "company": "Inflow Technology Services - (www.inflow.pro)",
             "location": "Remote",
             "position": "Founder",
             "summary": "Built a product for distributing mass payments using Lean Startup techniques.",
-            "startDate": "2021-09",
+            "releaseDate": "2021-09",
             "keywords": [
                 "GCP",
                 "Golang",
@@ -382,7 +376,7 @@
             "location": "Remote",
             "position": "Founder",
             "summary": "Built a product to automate the process of Esports tournament payouts and crowdfunding",
-            "startDate": "2019-06",
+            "releaseDate": "2019-06",
             "keywords": [
                 "GCP",
                 "Golang",
@@ -421,19 +415,35 @@
     ],
     "softskills": [
         {
-            "name": "Leadership",
+            "name": "Product Development",
             "level": 5
         },
         {
-            "name": "Communication",
+            "name": "Leadership & Team Building",
             "level": 5
         },
         {
-            "name": "Teamwork",
+            "name": "Research & Development",
             "level": 5
         },
         {
-            "name": "Hiring",
+            "name": "Budget Management",
+            "level": 5
+        },
+        {
+            "name": "Strategic Oversight",
+            "level": 5
+        },
+        {
+            "name": "Execution",
+            "level": 5
+        },
+        {
+            "name": "Cyber Security",
+            "level": 5
+        },
+        {
+            "name": "IT Resilience",
             "level": 5
         }
     ],
@@ -457,17 +467,6 @@
         {
             "name": "Database Relational/NoSQL",
             "level": 5
-        }
-    ],
-    "interests": [
-        {
-            "name": "No Ops"
-        },
-        {
-            "name": "A.I. and Machine Learning"
-        },
-        {
-            "name": "Compilers"
         }
     ]
 }

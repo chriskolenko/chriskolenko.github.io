@@ -1,58 +1,54 @@
 {{#if resume.projects.length}}
-  <div class="break-before container work-container space-y-4 print:text-sm">
-  {{> title-dark value="Projects"}}
+<div class="break-before container work-container space-y-4 print:text-sm">
+  {{> title-light value="Projects"}}
 
   {{#each resume.projects}}
-    <section class="item">
-      <div class="grid grid-cols-9 mx-4">
-        <div class="text-right col-span-2 pr-4 h-4">
-          <h5 class="">
-            {{#if startDate}}
-              <span class="startDate">{{formatDate startDate}}</span>
-            {{#if endDate}}
-              <span class="endDate"> - {{formatDate endDate}}</span>
-            {{else}}
-              <span class="endDate"> - Present</span>
-            {{/if}}
-            {{else if releaseDate}}
-              {{formatDate releaseDate}}
-            {{/if}}
-          </h5>
-        </div>
-        <div class="col-span-7 text-left flex gap-x-4">
-          <h5 class="tracking-wide">
-            <span class="font-medium">{{position}}</span> ► {{company}}
-          </h5>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-9 mx-2 sm:mx-4 text-left mt-2">
-        <div class="col-start-3 col-span-7">
-          {{#if summary}}
-            <p class="summary">{{summary}}</p>
+  <section class="px-4 mt-4 space-y-2">
+    <div class="flex border-b border-zinc-800">
+      <h5 class="flex-auto py-1">
+        <span class="font-medium">{{ position }}</span> | {{ company }}
+      </h5>
+      <div class="flex-none text-right">
+        <h5>
+          {{#if startDate}}
+          <span class="startDate">{{formatDate startDate}}</span>
+          {{#if endDate}}
+          <span class="endDate"> - {{formatDate endDate}}</span>
+          {{else}}
+          <span class="endDate"> - Present</span>
           {{/if}}
-
-          {{#if highlights.length}}
-            <ul class="list-outside ml-6 font-light">
-              {{#each highlights}}
-              <li class="list-disc">{{.}}</li>
-              {{/each}}
-            </ul>
+          {{else if releaseDate}}
+          {{formatDate releaseDate}}
           {{/if}}
-        </div>
+        </h5>
       </div>
+    </div>
 
-      {{#if keywords.length}}
-        <div class="grid grid-cols-9 mx-2 sm:mx-4 text-left">
-          <div class="col-start-3 col-span-7">
-            {{#each keywords}}
-              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">{{.}}</span>
-            {{/each}}
-          </div>
-        </div>
+    <div>
+      {{#if summary}}
+      <p class="summary">{{ summary }}</p>
       {{/if}}
 
-    </section>
+      {{#if highlights.length}}
+      <ul class="list-outside ml-6 font-light">
+        {{#each highlights}}
+        <li class="list-disc">{{.}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+    </div>
+
+    {{#if keywords.length}}
+    <div>
+      {{#each keywords}}
+      <span
+        class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800"
+        >{{.}}</span
+      >
+      {{/each}}
+    </div>
+    {{/if}}
+  </section>
   {{/each}}
 </div>
 {{/if}}

@@ -1,14 +1,13 @@
 {{#if resume.softskills.length}}
-  <div class="skills-container space-y-0 md:space-y-1">
-  {{> title-light value="Soft Skills"}}
+<div class="container">
+  {{> title-light value="Core Competencies"}}
 
-    {{#each resume.softskills}}
-      <div class="skill-item text-left px-1 sm:px-4 ">
-        <h2>{{name}}</h2>
-        <div class="grid grid-cols-5 py-0.5 md:py-1">
-            {{{renderSkill level}}}
-        </div>
-      </div>
-    {{/each}}
-  </div>
+  <section class="px-4 mt-4 space-y-2">
+    <ul class="flex flex-row flex-wrap list-outside ml-6 font-light">
+      {{#each resume.softskills}}
+      <li class="basis-1/3 list-disc">{{ name }}</li>
+      {{/each}}
+    </ul>
+  </section>
+</div>
 {{/if}}

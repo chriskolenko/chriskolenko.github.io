@@ -2,20 +2,20 @@
 <div class="container interests-container">
   {{> title-light value="Interests"}}
 
-  <div class="px-1 sm:px-4 ">
+  <div class="px-1 sm:px-4">
     {{#each resume.interests}}
-      <section class="item">
-        {{#if name}}
-          <h6>{{name}}</h6>
-        {{/if}}
-        {{#if keywords.length}}
-          <ul class="minimal">
-            {{#each keywords}}
-                <li>{{.}}</li>
-            {{/each}}
-          </ul>
-        {{/if}}
-      </section>
+    <section class="item">
+      {{#if name}}
+      <h6>{{ name }}</h6>
+      {{/if}}
+      {{#if keywords.length}}
+      <ul class="minimal">
+        {{#each keywords}}
+        <li>{{.}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+    </section>
     {{/each}}
   </div>
 </div>
