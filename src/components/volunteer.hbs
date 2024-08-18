@@ -1,9 +1,9 @@
 {{#if resume.volunteer.length}}
-<div class="container">
+<section>
   {{> title-light value="Volunteer"}}
 
   {{#each resume.volunteer}}
-  <section class="px-4 mt-4 space-y-2">
+  <div class="px-4 mt-4 space-y-2">
     <div class="flex border-b border-zinc-800">
       <h5 class="flex-auto py-1">
         <span class="font-medium">{{ organization }}</span> | {{ position }}
@@ -28,7 +28,7 @@
       <p>{{ summary }}</p>
       {{/if}}
     </div>
-  </section>
+  </div>
   {{/each}}
-</div>
+</section>
 {{/if}}

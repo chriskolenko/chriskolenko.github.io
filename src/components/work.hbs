@@ -1,10 +1,14 @@
 {{#if resume.work.length}}
-<div class="container">
+<section class="break-before">
   {{> title-light value="Experience"}}
 
   {{#each resume.work}}
-  <section class="px-4 mt-4 space-y-2">
-    <div class="flex border-b border-zinc-800">
+  <div class="px-4 mt-4 space-y-2">
+    {{#if breakBefore}}
+      <div class="break-before flex border-b border-zinc-800">
+    {{else}}
+      <div class="flex border-b border-zinc-800">
+    {{/if}}
       <h5 class="flex-auto py-1">
         <span class="font-medium">{{ position }}</span> | {{ company }}
       </h5>
@@ -50,7 +54,7 @@
       {{/each}}
     </div>
     {{/if}}
-  </section>
+  </div>
   {{/each}}
-</div>
+</section>
 {{/if}}

@@ -84,7 +84,6 @@
             ]
         },
         {
-            "breakBefore": true,
             "company": "MoneyHero Group",
             "location": "Remote",
             "position": "Head of Platform",
@@ -158,6 +157,7 @@
             ]
         },
         {
+            "breakBefore": true,
             "compact": true,
             "company": "Contino",
             "location": "Sydney",
@@ -177,7 +177,6 @@
         },
         {
             "compact": true,
-            "breakBefore": true,
             "company": "Commonwealth Bank of Australia",
             "location": "Sydney",
             "position": "Senior DevSecOps Engineer / Senior Platform Engineer",
@@ -422,7 +421,11 @@
             "level": 5
         },
         {
-            "name": "Leadership & Team Building",
+            "name": "Leadership",
+            "level": 5
+        },
+        {
+            "name": "Team Building",
             "level": 5
         },
         {

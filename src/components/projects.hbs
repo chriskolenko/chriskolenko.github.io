@@ -1,9 +1,9 @@
 {{#if resume.projects.length}}
-<div class="break-before container work-container space-y-4 print:text-sm">
+<section class="break-before">
   {{> title-light value="Projects"}}
 
   {{#each resume.projects}}
-  <section class="px-4 mt-4 space-y-2">
+  <div class="px-4 mt-4 space-y-2">
     <div class="flex border-b border-zinc-800">
       <h5 class="flex-auto py-1">
         <span class="font-medium">{{ position }}</span> | {{ company }}
@@ -48,7 +48,7 @@
       {{/each}}
     </div>
     {{/if}}
-  </section>
+  </div>
   {{/each}}
-</div>
+</section>
 {{/if}}

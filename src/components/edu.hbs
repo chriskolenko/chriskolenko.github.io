@@ -1,9 +1,9 @@
 {{#if resume.education.length}}
-<div class="container">
+<section>
   {{> title-light value="Education"}}
 
   {{#each resume.education}}
-  <section class="px-4 mt-4 space-y-2">
+  <div class="px-4 mt-4 space-y-2">
     <div class="flex border-b border-zinc-800">
       <h5 class="flex-auto py-1">
         <span class="font-medium">{{ area }}</span> | {{ institution }}
@@ -23,7 +23,7 @@
         </h5>
       </div>
     </div>
-  </section>
+  </div>
   {{/each}}
-</div>
+</section>
 {{/if}}
