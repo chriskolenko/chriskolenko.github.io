@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Chris J. Kolenko",
-    "label": "Principal DevOps Engineer / Head of DevOps",
-    "image": "assets/headshot.jpg",
+    "label": "Principal Engineer / Golang Developer",
+
     "email": "chris@webcanvas.com.au",
     "phone": "+61 412 149 906",
-    "summary": "Principal DevOps Engineer with extensive expertise in Microsoft Azure, Google Cloud Platform (GCP), Amazon Web Services (AWS), .NET, software development, cloud infrastructure, DevOps practices, and platform engineering. Proven track record of architecting and implementing scalable, cost-efficient solutions across multi-cloud environments while optimising complex systems to drive organisational success. Skilled in promoting a DevOps-first culture, leveraging Shift Left principles, and building high-performing cross-functional teams. Proficient in applying Lean Methodology to bring innovative concepts to production, using data-driven insights to continuously refine solutions, and enhancing decision-making within Azure, GCP, AWS, and .NET ecosystems. Experienced in leading transformational projects and delivering measurable business impact through technical excellence.",
+    "summary": "Software engineer with 17+ years of experience and deep expertise in Golang, CLI tooling, and cross-platform developer experience. Built production CLIs with authentication flows, self-updating mechanisms, and cross-platform distribution. Extensive hands-on experience with Docker, Kubernetes, CI/CD pipelines, database migrations, and Postgres across AWS, GCP, and Azure. Passionate about crafting intuitive developer tools that streamline workflows, with a track record of building and shipping developer platforms from the ground up. Active Supabase user across multiple side projects.",
     "location": {
       "city": "Sydney",
       "countryCode": "AU"
@@ -15,22 +15,17 @@
         "network": "GitHub",
         "username": "chriskolenko",
         "url": "https://github.com/chriskolenko"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "kolenko",
-        "url": "https://www.linkedin.com/in/kolenko/"
       }
     ],
     "points": [
-      "Led a high-performing team of 15-20 members, including line managers and individual contributors, across diverse technology domains.",
-      "Extensive expertise in building and managing teams specializing in Microsoft Azure, .NET, AWS, GCP, DevSecOps, Cloud, Platform Engineering, Cybersecurity, and Software Development.",
-      "Over 10 years of deep experience in Microsoft technologies, including .NET, C#, and Azure, along with proficiency in NodeJS and Golang environments.",
-      "Directed transformational projects with a focus on cloud migrations to Microsoft Azure, implementing DevSecOps practices, and building scalable, secure platforms within the Microsoft ecosystem.",
-      "Skilled in crafting strategic plans and setting timelines for the assessment, development, and deployment of comprehensive technical solutions in Azure and .NET environments.",
-      "Expert in designing and executing disaster recovery and business continuity plans within Azure to ensure robust operational resilience.",
-      "Successfully developed and implemented cybersecurity strategies and policies tailored to Microsoft environments, safeguarding data and information systems.",
-      "Enhanced systems and processes to achieve compliance with industry standards, regulatory requirements, and Microsoft best practices."
+      "Built a production Golang CLI for Get No_Ops featuring gcloud-inspired authentication, self-updating, cross-platform support (Windows, Linux, macOS), and package distribution.",
+      "17+ years of software development experience with 8+ years building command-line tools and developer workflow automation in Golang.",
+      "Deep experience with Docker, Kubernetes, CI/CD pipelines, Git, and container orchestration across production environments.",
+      "Strong understanding of Postgres, database migrations, and relational database protocols from building CQRS/Event Sourcing systems.",
+      "Active Supabase user building three side projects: Grapevine Network, 1099w9.com, and optrader.com.au.",
+      "Proficient in Go, C#, Node.js, and React.js with a focus on cross-platform concerns including filesystem access, subprocess management, and terminal handling.",
+      "Experience with package distribution via Homebrew, APT, npm, and custom update mechanisms.",
+      "Open source contributor and founder of multiple developer-facing products."
     ]
   },
   "work": [
@@ -38,185 +33,137 @@
       "company": "Petsure Australia",
       "location": "Remote",
       "position": "DevOps Consultant",
-      "summary": "Work closely with leadership to build a DevOps culture and implement best practices across Windows environments",
+      "summary": "Building CI/CD pipelines and developer tooling to streamline development workflows",
       "startDate": "2024-06",
-      "keywords": ["Microsoft Azure", ".NET", "C#", "React.js"],
+      "keywords": ["CI/CD", "Developer Tooling", "Git", "Docker"],
       "highlights": [
-        "Develop tailored strategies for .NET teams to adopt and implement DevOps practices effectively.",
-        "Collaborate with multiple .NET development teams to ensure adherence to best practices across projects.",
-        "Oversee the management of multiple .NET environments, ensuring they are secure, cost-efficient, and optimized for performance.",
-        "Support the migration from TeamCity, Octopus Deploy, and BitBucket to streamlined solutions that enhance .NET project workflows.",
-        "Partner with the Head of Security and Head of Architecture to ensure the platform’s security, scalability, and robust design in .NET application development."
+        "Designed and implemented CI/CD pipelines and developer workflow automation for multiple teams.",
+        "Led migration from legacy build systems (TeamCity, Octopus Deploy) to modern streamlined tooling.",
+        "Collaborated with security and architecture teams to ensure platform reliability and scalability."
       ]
     },
     {
       "company": "Get No_Ops - (www.getnoops.com)",
       "location": "Remote",
       "position": "Chief Technology Officer",
-      "summary": "Built a Dev Ops/Platform as a Service Platform as a SAAS product",
+      "summary": "Built a DevOps/Platform-as-a-Service product with a Golang CLI, backend services, and React portal",
       "startDate": "2022-12",
       "endDate": "2024-06",
       "keywords": [
-        "AWS",
-        "Microsoft Azure",
-        "GCP",
-        ".NET",
-        "C#",
         "Golang",
+        "CLI",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Docker",
         "React.js",
         "CQRS",
         "Event Sourcing",
-        "Support",
-        "Lean Startup"
+        "Postgres"
       ],
       "highlights": [
-        "Led the overall architecture and design, ensuring a cohesive and scalable system.",
-        "Applied lean startup techniques to effectively build and iterate over the product.",
-        "Built and led a team of 10 engineers across frontend, backend, and DevOps, driving cross-functional collaboration.",
-        "Innovated new patterns and practices for Platform Engineering, setting new standards in the field.",
-        "Developed a top-tier portal for viewing configuration and operations, enhancing user experience and accessibility.",
-        "Achieved a perfect score on the CIS v2 benchmark, demonstrating exceptional security and compliance standards.",
-        "Collaborated closely with the AWS Startup program and solution architects to leverage cutting-edge resources and expertise.",
-        "Worked directly with customers to understand their needs and requirements, ensuring the product met and exceeded expectations.",
-        "Software written in; C#, Golang, React.js, and Node.js.",
-        "Worked closely with companies in Microsoft Azure and AWS to ensure the product was compatible with their environments."
+        "Designed and built a production Golang CLI with gcloud-inspired authentication flows, OAuth/token management, and session handling.",
+        "Implemented CLI self-updating mechanism with cross-platform support for Windows, Linux, and macOS.",
+        "Managed CLI releases, versioning, and backwards compatibility across multiple distribution channels.",
+        "Built backend services in Golang using CQRS and Event Sourcing patterns with Postgres.",
+        "Led a team of 10 engineers across frontend, backend, and infrastructure.",
+        "Gathered direct customer feedback to iterate on CLI usability and developer experience.",
+        "Achieved a perfect score on the CIS v2 benchmark for security and compliance."
       ]
     },
     {
       "company": "Rackspace",
       "location": "Sydney/Remote",
-      "position": "Lead Cloud/Cyber Architect",
-      "summary": "Joined the Elastic Engineering APJ department to run a team of highly skilled DevSecOps, Cloud and Platform engineers",
+      "position": "Lead Cloud Architect",
+      "summary": "Led DevSecOps and Platform engineering teams delivering infrastructure automation across AWS, Azure, and GCP",
       "startDate": "2021-07",
       "endDate": "2022-12",
       "keywords": [
         "AWS",
         "Azure",
         "GCP",
-        "DevSecOps",
         "Terraform",
         "Kubernetes",
-        "Observability"
+        "Docker"
       ],
       "highlights": [
-        "Successfully built and scaled multiple DevSecOps teams of up to 10 engineers, navigating volatile and competitive market conditions.",
-        "Managed over 12 projects of varying scope across diverse industries, delivering consistent results.",
-        "Developed a comprehensive skills matrix, created tailored development plans, and modernised the interview process to enhance team capabilities.",
-        "Collaborated with 12+ companies, ranging from startups to large enterprises, driving innovation and growth.",
-        "Crafted strategies for standardising and modularising IT infrastructure, improving efficiency and adaptability.",
-        "Ensured that all deliverables adhered to stringent industry standards in security, cost-efficiency, performance, reliability, and scalability.",
-        "Led the overall cyber security and architectural strategy for all projects under my team's purview.",
-        "Worked with Azure, AWS, and GCP to ensure the best possible outcomes for our customers."
+        "Managed 12+ projects delivering infrastructure automation and developer tooling across diverse industries.",
+        "Standardised and modularised infrastructure using Terraform, Docker, and Kubernetes.",
+        "Ensured deliverables met stringent standards for security, performance, reliability, and scalability."
       ]
     },
     {
       "company": "MoneyHero Group",
       "location": "Remote",
-      "position": "Head of Platform",
-      "summary": "Built multiple teams responsible for Cyber Security, ITSM, Test Automation and DevSecOps",
-      "startDate": "2021-02",
+      "position": "Head of DevSecOps / Head of Platform",
+      "summary": "Built DevSecOps, SRE, and Platform teams; designed AWS infrastructure and custom Golang tooling",
+      "startDate": "2019-02",
       "endDate": "2021-07",
       "keywords": [
         "AWS",
-        "Cyber Security",
-        "ITSM",
-        "Vendor Management",
-        "Testing",
-        "DevSecOps",
-        "Platform"
-      ],
-      "highlights": [
-        "Recruited and developed a team of cybersecurity engineers, establishing and executing a comprehensive security strategy.",
-        "Mentored and advanced multiple team members into leadership roles, fostering a culture of growth and development.",
-        "Built and transitioned the IT Service Management (ITSM) team to provide in-house IT support, enhancing service delivery.",
-        "Identified and onboarded various vendors to address challenges in monitoring and security, improving overall system resilience."
-      ]
-    },
-    {
-      "company": "MoneyHero Group",
-      "location": "Remote",
-      "position": "Head of DevSecOps",
-      "summary": "Built multiple teams responsible for DevSecOps, AWS infrastructure and SRE",
-      "startDate": "2019-02",
-      "endDate": "2021-02",
-      "keywords": [
-        "AWS",
         "Kubernetes",
+        "Golang",
         "CI/CD",
         "GitOps",
-        "Automation",
-        "Leadership",
-        "Golang"
+        "Docker",
+        "DataDog"
       ],
       "highlights": [
-        "Architected and designed the AWS infrastructure, ensuring a robust and scalable foundation.",
-        "Engineered the communication architecture for applications, optimizing interactions and data flow.",
-        "Transformed multiple AWS environments using Kubernetes, GitOps, and Agile methodologies to enhance efficiency and scalability.",
-        "Scaled operations to manage up to 10 production Kubernetes clusters, ensuring high availability and performance.",
-        "Recruited and built the DevSecOps and System Engineering teams, strengthening the technical capabilities of the organisation.",
-        "Established and hired the Site Reliability Engineering (SRE) team, focusing on system reliability and uptime.",
-        "Led the development of short, mid, and long-term strategies, aligning technical goals with business objectives.",
-        "Implemented DataDog for comprehensive monitoring and logging, enhancing system visibility and performance tracking.",
-        "Custom-built deployment tooling in Golang to convert services into containers, streamlining the deployment process."
+        "Custom-built deployment CLI tooling in Golang to containerise services and automate deployments.",
+        "Architected AWS infrastructure running 10 production Kubernetes clusters.",
+        "Designed CI/CD pipelines and GitOps workflows for multiple engineering teams.",
+        "Implemented DataDog for comprehensive monitoring, logging, and observability.",
+        "Built and scaled DevSecOps and SRE teams from scratch."
       ]
     },
     {
       "company": "Industrie and Co",
       "location": "Sydney",
       "position": "DevSecOps Practice Lead",
-      "summary": "Lead a team of 6 DevSecOps engineers and engaged with clients to deliver projects through to production",
+      "summary": "Led a team delivering production Kubernetes infrastructure with CI/CD pipelines",
       "startDate": "2018-07",
       "endDate": "2019-02",
-      "keywords": ["AWS", "Terraform", "DevSecOps", "Kubernetes", "AWS"],
+      "keywords": ["AWS", "Terraform", "Kubernetes", "Istio", "CI/CD"],
       "highlights": [
-        "Designed and implemented a bank-grade network architecture in AWS, ensuring top-tier security and reliability.",
-        "Deployed a production Kubernetes cluster integrated with an Istio service mesh for enhanced traffic management and security.",
-        "Developed and executed a VPN strategy for secure access to private networks and development environments.",
-        "Crafted and implemented comprehensive logging and monitoring strategies to ensure system visibility and proactive issue resolution.",
-        "Designed and implemented CI/CD pipelines, streamlining the software development and deployment process."
+        "Deployed production Kubernetes clusters with Istio service mesh.",
+        "Designed and implemented CI/CD pipelines for development teams.",
+        "Built bank-grade network architecture in AWS."
       ]
     },
     {
-      "breakBefore": true,
       "compact": true,
       "company": "Contino",
       "location": "Sydney",
-      "position": "Senior DevSecOps Engineer / Senior Platform Engineer",
-      "summary": "Driving adoption of CI/CD for providing business value. Nurturing organisational transformation by leveraging proven processes and technologies",
+      "position": "Senior Platform Engineer",
+      "summary": "CI/CD consulting for Government projects",
       "startDate": "2018-04",
       "endDate": "2018-07",
-      "keywords": ["AWS", "DevSecOps", "Consulting", "Node.js"],
+      "keywords": ["AWS", "CI/CD", "Node.js"],
       "highlights": [
-        "Design and implement CI/CD processes for a large Government project"
+        "Designed and implemented CI/CD processes for a large Government project."
       ]
     },
     {
       "compact": true,
       "company": "Commonwealth Bank of Australia",
       "location": "Sydney",
-      "position": "Senior DevSecOps Engineer / Senior Platform Engineer",
-      "summary": "Worked with multiple areas of the business, including Netbank, Netbank Mobile, Shared Services, Data Engineering",
+      "position": "Senior Platform Engineer",
+      "summary": "Built a PaaS running on 600+ servers using Golang, Kubernetes, and automation tooling",
       "startDate": "2015-09",
       "endDate": "2018-04",
       "keywords": [
-        "AWS",
-        "Azure",
-        "Bare Metal",
-        "PAAS",
-        "Kubernetes/Mesos",
-        "C#",
         "Golang",
-        "Puppet/Ansible/Packet",
+        "Kubernetes",
+        "Mesos",
+        "C#",
         "Vault",
         "CI/CD",
         "Automation"
       ],
       "highlights": [
-        "Built a PAAS which runs on over 600 servers",
-        "Codified Bare Metal deployments",
-        "Increased productivity for development teams using CI/CD practices",
-        "Enabled teams to self service in various tools",
-        "Trained numerous teams in CI/CD and Testing"
+        "Built a PaaS running on 600+ servers using Golang and Kubernetes/Mesos.",
+        "Codified bare metal deployments with automation tooling.",
+        "Increased developer productivity through CI/CD practices and self-service tooling."
       ]
     },
     {
@@ -224,140 +171,87 @@
       "company": "Commonwealth Bank of Australia",
       "location": "Sydney",
       "position": "Senior .NET Developer",
-      "summary": "Developed .NET Rest APIs to be consumed by CommBanks iOS and Android applications",
+      "summary": "Developed REST APIs consumed by CommBank iOS and Android applications",
       "startDate": "2014-04",
       "endDate": "2015-09",
-      "keywords": ["Agile", "C#", "WebAPI", "REST"],
+      "keywords": ["C#", "WebAPI", "REST", "SQL"],
       "highlights": [
-        "Delivered scheduled payments functionality for the CommBank iOS and Android applications"
+        "Delivered scheduled payments functionality for CommBank mobile applications."
       ]
     },
     {
       "compact": true,
-      "company": "Viocorp",
+      "company": "Various Companies",
       "location": "Sydney",
       "position": "Senior .NET Developer",
-      "summary": "Worked on a private video web application like Netflix, which allowed customers to upload videos which then transcoded and distributed the content to their customers. ABC Kids",
-      "startDate": "2013-08",
-      "endDate": "2014-04",
-      "keywords": [
-        "Agile",
-        "Full-stack",
-        "CMS",
-        "Umbraco",
-        "WCF",
-        "JQuery",
-        "HTML",
-        "CSS"
-      ],
-      "highlights": [
-        "Implemented distributed computing with scale out strategies",
-        "Implemented CI/CD for test and production deployments",
-        "Provide operations support"
-      ]
-    },
-    {
-      "compact": true,
-      "company": "Bauer Media (ACP Magazines)",
-      "location": "Sydney",
-      "position": "Senior .NET Developer",
-      "summary": "Full-stack .NET Developer building Umbraco CMS driven websites.",
-      "startDate": "2012-08",
-      "endDate": "2013-08",
-      "keywords": [
-        "Agile",
-        "Full-stack",
-        "CMS",
-        "Umbraco",
-        "WCF",
-        "JQuery",
-        "HTML",
-        "CSS"
-      ],
-      "highlights": [
-        "Delivered websites that had over 1 million page views per month",
-        "Provide operations support"
-      ]
-    },
-    {
-      "compact": true,
-      "company": "Webcanvas Pty Ltd (Own business)",
-      "location": "Sydney",
-      "position": "Senior .NET Developer",
-      "summary": "Met with customers to delivery IT based services to help grow their businesses. This included CMS based websites and customised internal tools to reduce human error.",
-      "startDate": "2010-07",
-      "endDate": "2012-08",
-      "keywords": [
-        "Full-stack",
-        "C#",
-        "SQL",
-        "WebAPI",
-        "ASP.NET MVC",
-        "CMS",
-        "AWS",
-        "Azure",
-        "Infrastructure",
-        "SysAdmin",
-        "JQuery",
-        "HTML",
-        "CSS"
-      ],
-      "highlights": [
-        "Delivered multiple websites for small to medium sized companies.",
-        "Provided after hours support.",
-        "Run servers in Production for more then 5+ years"
-      ]
-    },
-    {
-      "compact": true,
-      "company": "Seven Network Pty Ltd",
-      "location": "Sydney",
-      "position": ".NET Developer",
-      "startDate": "2010-03",
-      "endDate": "2010-07",
-      "summary": "Apart of a large development team (~30 people) building an internal tool named Quatro.",
-      "keywords": ["Agile", "Silverlight", "RIA", "C#", "SQL", "MicroService"],
-      "highlights": [
-        "Successfully delivering 3 core features",
-        "Assisting Business Analysts (BA) with design decisions"
-      ]
-    },
-    {
-      "compact": true,
-      "company": "Interesting Pty Ltd",
-      "location": "Sydney",
-      "position": ".NET Developer",
+      "summary": "Full-stack development across Viocorp, Bauer Media, Webcanvas (own business), Seven Network, and Interesting Pty Ltd",
       "startDate": "2007-10",
-      "endDate": "2010-03",
-      "summary": "Created digital media websites for multiple companies include Real Insurance.",
-      "keywords": [
-        "Agile",
-        "Full-stack",
-        "SQL",
-        "C#",
-        "ASP.NET",
-        "MVC",
-        "Kentico",
-        "CMS",
-        "WCF",
-        "REST",
-        "JQuery",
-        "HTML",
-        "CSS"
-      ],
+      "endDate": "2014-04",
+      "keywords": ["C#", "SQL", "REST", "Full-stack", "AWS", "Azure"],
       "highlights": [
-        "Delivered over 8 fully customised CMS based web applications",
-        "Performed mission-critical production support",
-        "Full stack development"
+        "Built and shipped production web applications serving 1M+ monthly page views.",
+        "Implemented distributed computing, CI/CD pipelines, and production operations support.",
+        "Ran own consultancy (Webcanvas) delivering solutions for SMBs."
       ]
     }
   ],
   "projects": [
     {
+      "company": "Grapevine Network",
+      "location": "Remote",
+      "position": "Engineer",
+      "summary": "An employment platform built on Supabase",
+      "releaseDate": "2025-01",
+      "keywords": [
+        "Supabase",
+        "Postgres",
+        "React.js",
+        "TypeScript"
+      ],
+      "highlights": [
+        "Built on Supabase with Postgres, Auth, and Realtime features.",
+        "Designed database schema and migrations for the employment platform."
+      ]
+    },
+    {
+      "company": "1099w9.com",
+      "location": "Remote",
+      "position": "Engineer",
+      "summary": "A tax form platform helping businesses submit 1099s and collect W-9s, built on Supabase",
+      "releaseDate": "2025-01",
+      "keywords": [
+        "Supabase",
+        "Postgres",
+        "React.js",
+        "TypeScript"
+      ],
+      "highlights": [
+        "Built on Supabase with Postgres for form data, authentication, and storage.",
+        "Designed workflows for tax form submission and collection."
+      ]
+    },
+    {
+      "company": "optrader.com.au",
+      "location": "Remote",
+      "position": "Engineer",
+      "summary": "A Pokemon and One Piece TCG marketplace built on Supabase",
+      "releaseDate": "2025-01",
+      "keywords": [
+        "Supabase",
+        "Postgres",
+        "React.js",
+        "TypeScript"
+      ],
+      "highlights": [
+        "Built on Supabase with Postgres for marketplace data and real-time features.",
+        "Designed database schema for trading card listings, users, and transactions."
+      ]
+    },
+    {
       "company": "Inflow Technology Services - (www.inflow.pro)",
       "location": "Remote",
-      "position": "Founder",
-      "summary": "Built a product for distributing mass payments using Lean Startup techniques.",
+      "position": "Engineer",
+      "summary": "Built a mass payments distribution product in Golang using CQRS and Event Sourcing",
       "releaseDate": "2021-09",
       "keywords": [
         "GCP",
@@ -365,38 +259,30 @@
         "React.js",
         "CQRS",
         "Event Sourcing",
-        "Support",
-        "Lean Startup"
+        "Postgres"
       ],
       "highlights": [
-        "Established and grew a company from 3 to 5 team members, laying a strong foundation for future growth.",
-        "Transitioned the core engine from ContextGG into a standalone product, enhancing its functionality and marketability.",
-        "Developed and delivered customer portals, providing seamless and efficient client interactions.",
-        "Implemented Know Your Customer (KYC) processes to ensure compliance and secure customer onboarding.",
-        "Founded and incorporated the business entity in the United States, expanding the company's global presence."
+        "Built backend services in Golang with CQRS and Event Sourcing on GCP.",
+        "Developed customer portals and KYC onboarding flows.",
+        "Founded and incorporated the business in the United States."
       ]
     },
     {
       "company": "ContextGG - (www.context.gg)",
       "location": "Remote",
-      "position": "Founder",
-      "summary": "Built a product to automate the process of Esports tournament payouts and crowdfunding",
+      "position": "Engineer",
+      "summary": "Built an Esports tournament payout and crowdfunding platform in Golang",
       "releaseDate": "2019-06",
       "keywords": [
         "GCP",
         "Golang",
         "React.js",
         "CQRS",
-        "Event Sourcing",
-        "Support",
-        "Lean Startup"
+        "Event Sourcing"
       ],
       "highlights": [
-        "Developed and prioritized the product backlog, ensuring clear direction and focus for the team.",
-        "Recruited and assembled a talented team of developers and designers to bring the product vision to life.",
-        "Collaborated closely with designers and developers throughout the product development process, ensuring alignment and quality.",
-        "Led the strategy and product development efforts, driving the overall vision and execution.",
-        "Partnered with advisers to craft a compelling pitch for venture capital funding."
+        "Designed and built the product in Golang with React.js frontend.",
+        "Led strategy, product development, and team recruitment."
       ]
     }
   ],
@@ -420,6 +306,10 @@
   ],
   "softskills": [
     {
+      "name": "CLI/UX Design",
+      "level": 5
+    },
+    {
       "name": "Product Development",
       "level": 5
     },
@@ -428,53 +318,45 @@
       "level": 5
     },
     {
-      "name": "Team Building",
+      "name": "Open Source",
+      "level": 4
+    },
+    {
+      "name": "Cross-platform Dev",
       "level": 5
     },
     {
-      "name": "Research & Development",
-      "level": 5
+      "name": "Developer Advocacy",
+      "level": 4
     },
     {
-      "name": "Budget Management",
-      "level": 5
-    },
-    {
-      "name": "Strategic Oversight",
-      "level": 5
-    },
-    {
-      "name": "Execution",
-      "level": 5
-    },
-    {
-      "name": "Cyber Security",
-      "level": 5
-    },
-    {
-      "name": "IT Resilience",
-      "level": 5
+      "name": "Technical Writing",
+      "level": 4
     }
   ],
   "hardskills": [
     {
+      "name": "Golang",
+      "level": 5
+    },
+    {
+      "name": "CLI Tooling & Distribution",
+      "level": 5
+    },
+    {
+      "name": "Docker & Kubernetes",
+      "level": 5
+    },
+    {
+      "name": "Postgres & Migrations",
+      "level": 5
+    },
+    {
+      "name": "CI/CD & Git",
+      "level": 5
+    },
+    {
       "name": "Cloud AWS/GCP/Azure",
-      "level": 5
-    },
-    {
-      "name": "Architecture",
-      "level": 5
-    },
-    {
-      "name": "DevSecOps",
-      "level": 5
-    },
-    {
-      "name": "Golang/NodeJS/ReactJS/C#",
-      "level": 5
-    },
-    {
-      "name": "Database Relational/NoSQL",
       "level": 5
     }
   ]
